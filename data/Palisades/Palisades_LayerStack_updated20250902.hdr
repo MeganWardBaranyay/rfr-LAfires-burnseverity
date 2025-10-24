@@ -1,0 +1,69 @@
+ENVI
+description = {
+  Create Layer File Result [Tue Sep 2 16:41:54 2025]}
+samples = 452
+lines   = 207
+bands   = 53
+header offset = 0
+file type = ENVI Standard
+data type = 5
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, -118.72859330, 34.14069444, 5.4223000000e-04, 5.4223000000e-04, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ Layer (Layer (Band 1:EMIT_L2A_RFL_001_20240625T173907_2417712_009_Palisades_Cropped2_cwc.tif):Palisades_LayerStack), 
+ Layer (Layer (Band Math (float(b1)/float(b2)):Palisades_normalized_CWC_NDVI_20240625):Palisades_LayerStack), 
+ Layer (Layer (Band Math (float(b1)/float(b2)):Palisades_normalized_CWC_Vfrac_20240625):Palisades_LayerStack), 
+ Layer (Layer (Band 1:Vfrac_EMIT_L2A_RFL_001_20240625T173907_2417712_009_SVD-band2.tif):Palisades_LayerStack), 
+ Layer (Layer (Band Math ((float(b1)-float(b2))/(float(b1)+float(b2))):Palisades_EMIT_NDVI_865-656_20240625):Palisades_LayerStack), 
+ Layer (Layer (Band 1:Convolved_Palisades_20240625_ECO_L3T_JET.002_ETdaily_doy2024177173843_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:Convolved_Palisades_20240625_ECO_L4T_ESI.002_ESI_doy2024177173843_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:Convolved_Palisades_20240625_ECO_L4T_WUE.002_WUE_doy2024177173843_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:convolved_Palisades_20241201_ECO_L3T_JET.002_ETdaily_doy2024336184919_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:convolved_Palisades_20241201_ECO_L4T_ESI.002_ESI_doy2024336184919_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:convolved_Palisades_20241201_ECO_L4T_WUE.002_WUE_doy2024336184919_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:convolved_Palisades_20231202_ECO_L3T_JET.002_ETdaily_doy2023336192143_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:convolved_Palisades_20231202_ECO_L4T_ESI.002_ESI_doy2023336192143_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:convolved_Palisades_20231202_ECO_L4T_WUE.002_WUE_doy2023336192143_aid0001_11N.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:palisades_convolved_ECOv002_L3T_JET_26982_006_11SLT_20230409T172815_0712_01_ETdaily.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:palisades_convolved_ECOv002_L4T_ESI_26982_006_11SLT_20230409T172815_0712_01_ESI.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:palisades_convolved_ECOv002_L4T_WUE_26982_006_11SLT_20230409T172815_0712_01_WUE.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_diff_Jun2024_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_pctchange_Jun2024_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_diff_Dec2023_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_pctchange_Dec2023_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:PalisadesETdaily_20230409_20241201_diff.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:PalisadesETdaily_20230409_20241201_pctchange.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_diff_Jun2024_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_pctchange_Jun2024_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_diff_Dec2023_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_pctchange_Dec2023_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:PalisadesESI_20230409_20241201_diff.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:PalisadesESI_20230409_20241201_pctchange.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_diff_Jun2024_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_pctchange_Jun2024_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_diff_Dec2023_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_pctchange_Dec2023_to_Dec2024.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:PalisadesWUE_20230409_20241201_diff.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:PalisadesWUE_20230409_20241201_pctchange.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:AreaSolarRad.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:AreaSolarRad_directrad_WH-m2.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:SRTMGL1_elevation_opentopo_clipped_output.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:SRTMGL1_slope_opentopo_clipped_output.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:SRTMGL1_aspect_opentopo_clipped_output.tif):Palisades_LayerStack), 
+ Layer (Layer (Band Math (cos((float(b1)*(!PI))/180)):cos_SRTMGL1_aspect_opentopo_clipped_output):Palisades_LayerStack), 
+ Layer (Layer (WIND:RTMA_Wind_Composite_20250108.tif):Palisades_LayerStack), 
+ Layer (Layer (UGRD:RTMA_Wind_Composite_20250108.tif):Palisades_LayerStack), 
+ Layer (Layer (VGRD:RTMA_Wind_Composite_20250108.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:RTMA_MaxGust_20250108.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:climateEngine_download_20250107_maxVDP.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:NLCD_clipped_output.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:LC23_F13_240.tif):Palisades_LayerStack), 
+ Layer (Layer (Band Math ((float(b1)-float(b2))/(float(b1)+float(b2))):NBR_Stack_refl_LC08_L2SP_20250106):Palisades_LayerStack), 
+ Layer (Layer (Band 1:NBR_20250223_L8_NBR_post-fire.tif):Palisades_LayerStack), 
+ Layer (Layer (Band 1:dNBR_L8_20250106_20250223.tif):Palisades_LayerStack), 
+ Layer (Band 1:Palisades_ESI_Difference_Dec2024_minus_April2023.tif), 
+ Layer (Band 1:Palisades_WUE_Difference_Dec2024_minus_April2023.tif)}
