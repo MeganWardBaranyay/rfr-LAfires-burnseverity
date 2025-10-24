@@ -1,11 +1,11 @@
 # rfr-lafires-burnseverity
 Random Forest regression model for predicting burn severity (dNBR) from multi-sensor remote sensing data, integrating EMIT and ECOSTRESS fuels conditions, fire weather, and topographic variables across the January 2025 Los Angeles County wildfires.
 
-**Data Availabiliy**
+**Data Availability**
 
 - ECOSTRESS Collection 2 Level 3 and 4 products and orthorectified EMIT Level 2A Surface Reflectance were retrieved from the Application for Extracting and Exploring Analysis Ready Samples (AppEEARS) (https://appeears.earthdatacloud.nasa.gov/). 
 
-- Canopy Water Content was estimated using code available at the NASA VITALS repository (nasa.github.io/VITALS/).
+- Canopy Water Content was estimated using code available at the NASA VITALS repository ([nasa.github.io/VITALS/](https://nasa.github.io/VITALS/)).
 
 - The Shuttle Radar Topography Mission (SRTM)-derived elevation, aspect, and slope was retrieved from OpenTopography (https://doi.org/10.5069/G9445JDF). 
 
@@ -17,4 +17,4 @@ Random Forest regression model for predicting burn severity (dNBR) from multi-se
 
 - Random forest regression  modelling was performed with the scikit-learn RandomForestRegressor (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
 
-All data and code to run the model and produce figures are available in the "Data" folder. 
+*All data and code to run the model and produce figures are available in the "Data" folder.* 
