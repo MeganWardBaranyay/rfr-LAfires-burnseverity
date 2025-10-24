@@ -1,0 +1,69 @@
+ENVI
+description = {
+  Create Layer File Result [Tue Sep 2 16:39:05 2025]}
+samples = 279
+lines   = 174
+bands   = 53
+header offset = 0
+file type = ENVI Standard
+data type = 5
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, -118.16087585, 34.25347222, 5.4223000000e-04, 5.4223000000e-04, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ Layer (Layer (Band 1:EMIT_L2A_RFL_001_20240625T173907_2417712_009_Eaton_Cropped_cwc.tif):Eaton_LayerStack), 
+ Layer (Layer (Band Math (float(b1)/(float(b2))):Eaton_normalized_CWC_NDVI_20240625):Eaton_LayerStack), 
+ Layer (Layer (Band Math (float(b1)/(float(b2))):Eaton_normalized_CWC_Vfrac_20240625):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Vfrac_EMIT_L2A_RFL_001_20240625T173907_2417712_009_SVD-band2.tif):Eaton_LayerStack), 
+ Layer (Layer (Band Math ((float(b1)-float(b2))/(float(b1)+float(b2))):Eaton_EMIT_NDVI_865-656_20240625):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Convolved_Eaton_20240625_ECO_L3T_JET.002_ETdaily_doy2024177173843_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Convolved_Eaton_20240625_ECO_L4T_ESI.002_ESI_doy2024177173843_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Convolved_Eaton_20240625_ECO_L4T_WUE.002_WUE_doy2024177173843_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:convolved_Eaton_20241201_ECO_L3T_JET.002_ETdaily_doy2024336184919_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:convolved_Eaton_20241201_ECO_L4T_ESI.002_ESI_doy2024336184919_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:convolved_Eaton_20241201_ECO_L4T_WUE.002_WUE_doy2024336184919_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:convolved_Eaton_20231202_ECO_L3T_JET.002_ETdaily_doy2023336192143_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:convolved_Eaton_20231202_ECO_L4T_ESI.002_ESI_doy2023336192143_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:convolved_Eaton_20231202_ECO_L4T_WUE.002_WUE_doy2023336192143_aid0001_11N.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Eaton_convolved_ECOv002_L3T_JET_26982_006_11SLT_20230409T172815_0712_01_ETdaily.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Eaton_convolved_ECOv002_L4T_ESI_26982_006_11SLT_20230409T172815_0712_01_ESI.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:Eaton_convolved_ECOv002_L4T_WUE_26982_006_11SLT_20230409T172815_0712_01_WUE.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_diff_Jun2024_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_pctchange_Jun2024_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_diff_Dec2023_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ETdaily_stats_pctchange_Dec2023_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:EatonETdaily_20230409_20241201_diff.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:EatonETdaily_20230409_20241201_pctchange.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_diff_Jun2024_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_pctchange_Jun2024_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_diff_Dec2023_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:ESI_stats_pctchange_Dec2023_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:EatonESI_20230409_20241201_diff.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:EatonESI_20230409_20241201_pctchange.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_diff_Jun2024_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_pctchange_Jun2024_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_diff_Dec2023_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:WUE_stats_pctchange_Dec2023_to_Dec2024.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:EatonWUE_20230409_20241201_pctchange.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:EatonWUE_20230409_20241201_diff.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:AreaSolarRad.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:AreaSolarRad_directrad_WH-m2.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:SRTMGL1_elevation_opentopo_clipped_output.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:SRTMGL1_slope_opentopo_clipped_output.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:SRTMGL1_aspect_opentopo_clipped_output.tif):Eaton_LayerStack), 
+ Layer (Layer (Band Math (cos((float(b1)*(!PI))/180)):cos_SRTMGL1_aspect_opentopo_clipped_output):Eaton_LayerStack), 
+ Layer (Layer (WIND:RTMA_Wind_Composite_20250108.tif):Eaton_LayerStack), 
+ Layer (Layer (UGRD:RTMA_Wind_Composite_20250108.tif):Eaton_LayerStack), 
+ Layer (Layer (VGRD:RTMA_Wind_Composite_20250108.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:RTMA_MaxGust_20250108.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:climateEngine_download_20250107_maxVDP.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:NLCD_clipped_output.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:LC23_F13_240.tif):Eaton_LayerStack), 
+ Layer (Layer (Band Math ((float(b1)-float(b2))/(float(b1)+float(b2))):NBR_Stack_refl_LC08_L2SP_20250106):Eaton_LayerStack), 
+ Layer (Layer (Band 1:NBR_20250223_L8_NBR_post-fire.tif):Eaton_LayerStack), 
+ Layer (Layer (Band 1:dNBR_L8_20250106_20250223.tif):Eaton_LayerStack), 
+ Layer (Band 1:Eaton_ESI_Difference_Dec2024_minus_April2023.tif), 
+ Layer (Band 1:Eaton_WUE_Difference_Dec2024_minus_April2023.tif)}
