@@ -18,3 +18,6 @@ Random Forest regression model for predicting burn severity (dNBR) from multi-se
 - Random forest regression modelling was performed with the scikit-learn RandomForestRegressor (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
 
 *All data and code to run the model and produce figures are available in the "Data" folder.* 
+
+
+The code is designed to run within the **[NASA VITALS environment](https://github.com/nasa/VITALS)**, which provides the standardized dependencies and environment configuration for the workflow.
