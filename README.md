@@ -1,4 +1,4 @@
-# rfr-lafires-burnseverity
+# rfr-lafires-emit-ecostress_burnseverity
 Random Forest regression model for predicting burn severity (dNBR) from multi-sensor remote sensing data, integrating EMIT and ECOSTRESS fuels conditions, fire weather, and topography across three of the January 2025 Los Angeles County wildfires.
 
 **Data Availability**
